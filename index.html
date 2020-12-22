@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce Home Page</title>
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>
+    <!-- [if lte IE 9]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong>browser.please <a href="https://browsehappy.com">upgrade your browser </a>to improve your experience & security.     </p>
+    -<![endif]-->
+    <header class="header-area">
+
+        <!-- Header middle -->
+        <div class="header-middle">
+            <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-md-2">
+                       <div class="logo-area">
+                           <a href=""><img src="assets/images/logo.png" alt=""></a>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="search-form">
+                            <form action="#" method="POST">
+                               <select name="" id="search-category">
+                                   <option value="Products">Products</option>
+                                   <option value="Products">Products</option>
+                                   <option value="Suppliers">Suppliers</option>
+                               </select>
+                               <input type="text" placeholder="What Are You Looking For..." name="search">
+                               <a href="" class="search-btn"><i class="fa fa-search"></i> Search</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-wrap d-flex">
+                            <div class="icon-inner  d-flex ">
+                                <i class="far fa-user " style="margin-top: 12px;"></i>
+                                <div class="icont-content">
+                                    <span><a href="" class="login">Sign In</a></span>
+                                    <span><a href="" class="login">Join Free</a></span>
+                                </div>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-comment-dots d-block"></i>
+                                <a href="" class="message">message</a>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-comment-dollar d-block"></i>
+                                <a href="" class="order">Orders</a>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-cart-plus d-block"></i>
+                                <a href="" class="cart">Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+
+        <!--header bottom-->
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars"></i>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Ready to Ship</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle service-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="service-dropdown-menu">
+                                <div class="left-side">
+                                    <ul>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Trade Assurance</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Pay Later</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Payment Terms: Net-60</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Production Monitoring & Inspection Services</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Logistic Service</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-side">
+                                    <p>Sourcing Solutions</p>
+                                    <ul>
+                                        <li><a href="">Submit RFQ</a></li>
+                                        <li><a href="">Suppliers by Regions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                      <ul class="ml-auto">
+                        <li><a href="">Get the App |</a></li>
+                        <li><a href="">English- USD</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="wrapper">
+        <!-- banner section -->
+        <div class="slider-cat-area">
+            <div class="container-fluid">
+              <div class="slider-inner">          
+                <div class="row">
+                    <div class="col-md-3">
+                        <nav class="cat-menu">
+                            <h4>My Market</h4>
+                            <ul>
+                                <li><a href=""><i class="fa fa-facebook"></i> Apparel</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Beauty</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Packaging</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> health</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> medical</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Consumer electronics</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="slider-area">
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                       <div class="promotional-img">
+                           <div class="image-one"><a href=""><img src="" alt=""></a></div>
+                           <div class="image-two"><a href=""><img src="" alt=""></a></div>
+                       </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+        </div>
+
+
+        <!--new arrival start-->
+    <div class="new-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="new-arrival-wrap">
+                      <i class="fa fa-shopping-bag"></i>
+                      <h4>New Arrival</h4>
+                      <div class="row">
+                          <div class="col-md-3">
+                              <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                              <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                              <span> $ 1,200,00 </span>
+                              <p>Trending Now</p>
+                            </div>
+                         </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="source-wrap">
+                        <i class="fa fa-shopping-bag"></i>
+                        <h4>New Arrival</h4>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- new arrival end-->
+
+
+            <!--new arrival start-->
+            <div class="new-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                           <div class="new-arrival-wrap">
+                            <div class="new-arrival-wrapp">
+                                <div class="heading">
+                                    <h4>Customized products</h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
+                                </div>                                
+                            </div>
+                            <div class="flex-img d-flex ">
+                                <div class="flex-img-1">
+                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                </div>
+                                <div class="flex-img-2">
+                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="source-wrap">
+                                <div class="new-arrival-wrapp">
+                                    <div class="heading">
+                                        <h4>Customized products</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
+                                    </div>                                
+                                </div>
+                                <div class="flex-img d-flex ">
+                                    <div class="flex-img-1">
+                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                    </div>
+                                    <div class="flex-img-2">
+                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- new arrival end-->
+
+    <!--product area-->
+    <div class="product-area">
+        <div class="home-category">
+            <div class="home-category-info">
+
+               <div class="category-list">
+                   <div class="category-title d-flex align-items-center">
+                       <h2>Apparel</h2>
+                       <div class="label"></div>
+                   </div>
+                   <div class="category-info d-flex align-items-center">
+                       <a href="">
+                           <div class="banner-info">
+                               <h3>Shopping Guide for Trending Styles</h3>
+                               <img src="assets/images/banner-info/1.jpg" alt="">
+                               <span>Source Now</span>
+                           </div>
+                       </a>
+                       <div class="product-item d-flex">
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+            <div class="home-category-info"></div>
+            <div class="home-category-info"></div>
+        </div>
+    </div>
+
+    </section>
+
+
+
+
+
+  
+
+
+        <!-- footer area-->
+        <footer class="footer-area">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3 ">
+                            <div class="footer-top-wrap text-center text-white">
+                                <h5>Sign Up & Subscripbe to the newsletter</h5>
+                                <form class="form-inline">
+                                    <input class="form-control" type="search" placeholder="Search Your Products" aria-label="Search">
+                                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <nav class="footer-menu">
+                                <ul>
+                                    <li><a href="">Menu 1</a></li>
+                                    <li><a href="">Menu 2</a></li>
+                                    <li><a href="">Menu 3</a></li>
+                                    <li><a href="">Menu 4</a></li>
+                                    <li><a href="">Menu 5</a></li>
+                                </ul>
+                            </nav>
+                            <nav class="payment">
+                                <ul>
+                                    <li><a href=""><img src="assets/images/payment-method/paypal.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/images/payment-method/bkash.jpg" alt=""></a></li>
+                                    <li><a href=""><img src="assets/images/payment-method/rocket.png" alt=""></a></li>
+                                    <li><a href=""><img src="assets/images/payment-method/master-card.png" alt=""></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="location">
+                                <h4>Location</h4>
+                                <div class="location-wrap">
+                                    <div class="icon-meta">
+                                        <i class="fa fa-map-marker"></i>
+                                        <span>Lorem ipsum dolor sit amet.</span>
+                                    </div>
+                                    <div class="icon-meta">
+                                        <i class="fa fa-phone-alt"></i>
+                                        <span>+88028824658264</span>
+                                    </div>
+                                    <div class="icon-meta">
+                                        <i class="fa fa-envelope"></i>
+                                        <span>abc@gmail.com</span>
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <div class="social-icon-wrap text-center text-white">
+                                <p>Contact Us at:</p>
+                                <nav class="icon">
+                                    <ul>
+                                        <li><a href=""><i class="fas fa-facebook"></i></a></li>
+                                        <li><a href=""><i class="fas fa-twitter"></i></a></li>
+                                        <li><a href=""><i class="fas fa-linkedin"></i></a></li>
+                                        <li><a href=""><i class="fas fa-instagram"></i></a></li>
+                                        <li><a href=""><i class="fas fa-pinterest"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- jquery js -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- jquery  migrate js -->
+    <script src="assets/js/jquery-migrate.js"></script>
+
+    <!-- slick js -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- bootstrap popper js -->
+    <script src="assets/js/popper.js"></script>
+    <!-- theme bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- main js-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
