@@ -16,5 +16,10 @@
 /* XS Device */
 
 @media only screen and (max-width: 767px) {
-  
+    .category-info {
+        flex-direction: column;
+    }
+    .product-item {
+        flex-direction: column;
+    }
 }
