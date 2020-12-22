@@ -1,6 +1,9 @@
 *{
     margin: 0; padding: 0; outline: 0; box-sizing: border-box;
 }
+.common-padding{
+    padding: 30px 36px;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -292,6 +295,75 @@ nav.cat-menu ul li:last-child {
     border-right: 1px solid #f4f4f4;
     padding: 16px;
 }
+/* weekly deal*/
+.banner-info p {
+    position: absolute;
+    color: #fff;
+    left: 39px;
+    top: 68px;
+}
+.banner-info .deal-button{
+    position: absolute;
+    left: 28px;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 34px;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    display: inline-block;
+    -webkit-line-clamp: 1;
+    bottom: 30px;
+}
+
+.banner-info .date-time {
+    position: absolute;
+    bottom: 50px;
+    left: 7px;
+}
+.banner-info.img-height img {
+    height: 250px;
+}
+.item-info.deal img {
+    height: 120px;
+}
+.strike span.strike {
+    text-decoration: line-through;
+    color: #000;
+}
+
+div.strike {
+    font-size: 16px;
+    color: #000;
+}
+
+.item-info.deal p {
+    margin-bottom: 0;
+}
+
+.item-info.deal {
+    text-align: center;
+}
+span.percent {
+    background: orange;
+    border-radius: 40px;
+    color: #fff;
+    padding: 1px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer*/
 footer.footer-area {
