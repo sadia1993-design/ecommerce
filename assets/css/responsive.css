@@ -22,4 +22,10 @@
     .product-item {
         flex-direction: column;
     }
+    .icon-wrap.d-flex {
+        justify-content: center;
+    }
+    .logo-area {
+        text-align: center;
+    }
 }
