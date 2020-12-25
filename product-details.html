@@ -137,265 +137,293 @@
     </header>
 
     <section class="wrapper">
-        <!-- banner section -->
-        <div class="slider-cat-area">
-            <div class="container-fluid">
-              <div class="slider-inner">          
+      
+       <!--breadcrumb area -->
+       <nav aria-label="breadcrumb" class="breadcrumb-nav bg undefined">
+           <div class="container">
+               <ol class="breadcrumb">
+                   <li class="breadcrumb-item">
+                       <a href=""><i class="fa fa-home"></i></a>
+                   </li>
+                   <li class="breadcrumb-item"><a href="/react/porto/demo6/products/default/15">products</a></li>
+                   <li class="breadcrumb-item active" aria-current="page">Default</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!--product area-->
+        <div class="product-area pt-100 pb-100">
+            <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
-                        <nav class="cat-menu">
-                            <h4>My Market</h4>
-                            <ul>
-                                <li><a href=""><i class="fa fa-facebook"></i> Apparel</a></li>
-                                <li><a href=""><i class="fa fa-facebook"></i> Beauty</a></li>
-                                <li><a href=""><i class="fa fa-facebook"></i> Packaging</a></li>
-                                <li><a href=""><i class="fa fa-facebook"></i> health</a></li>
-                                <li><a href=""><i class="fa fa-facebook"></i> medical</a></li>
-                                <li><a href=""><i class="fa fa-facebook"></i> Consumer electronics</a></li>
+                    <div class="col-xl-5">
+                       <div class="product-details-tab">
+                           <!-- nav tab-->
+                           <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="image1" role="tabpanel" aria-labelledby="home-tab"><img src="assets/images/hot-deals/deal-3.png" alt=""></div>
+                            <div class="tab-pane fade" id="image2" role="tabpanel" aria-labelledby="profile-tab"><img src="assets/images/hot-deals/deal-3.png" alt=""></div>
+                            <div class="tab-pane fade" id="image3" role="tabpanel" aria-labelledby="contact-tab"><img src="assets/images/hot-deals/deal-3.png" alt=""></div>
+                          </div>
+
+                           <ul class="nav nav-tabs d-flex" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#image1" role="tab" aria-controls="home" aria-selected="true"><img src="assets/images/hot-deals/deal-3.png" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#image2" role="tab" aria-controls="profile" aria-selected="false"><img src="assets/images/hot-deals/deal-3.png" alt=""></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#image3" role="tab" aria-controls="contact" aria-selected="false"><img src="assets/images/hot-deals/deal-3.png" alt=""></a>
+                            </li>
+                          </ul>
+
+                       </div>
+                    </div>
+                    <div class="col-xl-7">
+                       <div class="product-content-area">
+                           <h3 class="product-title">Product Name</h3>
+                           <div class="rating-container d-flex align-items-center">
+                               <div class="ratings-full">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                               </div>
+                               <a href="" class="link-to-tab rating-revies ml-1">(6 reviews)</a>
+                           </div>
+                           <div class="product-price">$9.00</div>
+                           <p class="short-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia molestias ea itaque sit assumenda nesciunt. Reiciendis autem, nostrum nulla at quae ipsum corporis consequuntur mollitia vel enim rem! Veniam accusantium, recusandae omnis laboriosam asperiores non tenetur sequi quisquam rem autem cumque perferendis tempore officia placeat facilis unde nihil eius ad.</p>
+                           
+                           <div class="color-vary d-flex align-items-center">
+                               <span>Color</span>
+                               <ul class="color-block">
+                                   <li class="black"></li>
+                                   <li class="red"></li>
+                                   <li class="blue"></li>
+                               </ul>
+                           </div>
+                           <div class="size-vary d-flex align-items-center mt-3">
+                            <span>Size</span>
+                            <ul class="size-block">
+                                <li><a href="">S</a></li>
+                                <li><a href="">M</a></li>
+                                <li><a href="">L</a></li>
+                                <li><a href="">XL</a></li>
+                                <li><a href="">2XL</a></li>
                             </ul>
-                        </nav>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="slider-area">
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-1.jpg" alt="">
-                                </div>
-                            </div>
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-2.png" alt="">
-                                </div>
-                            </div>
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-3.png" alt="">
-                                </div>
-                            </div>
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-4.png" alt="">
-                                </div>
-                            </div>
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-5.png" alt="">
-                                </div>
-                            </div>
-                            <div class="single-banner">
-                                <div class="banner-img">
-                                    <img src="assets/images/banner/banner-6.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                       <div class="promotional-img">
-                           <div class="image-one"><a href=""><img src="" alt=""></a></div>
-                           <div class="image-two"><a href=""><img src="" alt=""></a></div>
-                       </div>
-                    </div>
-                </div>
-              </div>  
-            </div>
-        </div>
+                          </div>
+                          <hr class="long-divider"></hr>
+                          <div class="product-qty d-flex align-items-center">
+                              <label for="qty">Qty:</label>
+                              <div class="product-qty-group ml-3">
+                                  <div class="input-group">
+                                      <button class="minus">-</button>
+                                      <input class="quantity form-control" type="number" min="1" max="1000000">
+                                      <button class="plus">+</button>
+                                  </div>
+                              </div>
+                              <ul class="social-share ml-3">
+                                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                                <li><a href=""><i class="fab fa-pinterest"></i></a></li>
+                              </ul>
+                          </div>
 
+                          <div class="action-btn">
+                              <ul class="action">
+                                  <li><a href="">Buy Now</a></li>
+                                  <li><a href=""><i class="fas fa-shopping-cart"></i>Add to Cart</a></li>
+                                  <li><a href=""><i class="fas fa-heart"></i>Wishlist</a></li>
+                              </ul>
+                          </div>
+                          <hr class="long-divider"></hr>
+                          
 
-        <!--new arrival start-->
-    <div class="new-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="new-arrival-wrap">
-                      <i class="fa fa-shopping-bag"></i>
-                      <h4>New Arrival</h4>
-                      <div class="row">
-                          <div class="col-md-3">
-                              <div class="new-list">
-                                <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
-                                <span> $ 1,200,00 </span>
-                                <p>Trending Now</p>
-                              </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="new-list">
-                              <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
-                              <span> $ 1,200,00 </span>
-                              <p>Trending Now</p>
-                            </div>
-                         </div>
-                          <div class="col-md-3">
-                            <div class="new-list">
-                                <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
-                                <span> $ 1,200,00 </span>
-                                <p>Trending Now</p>
-                              </div>
-                          </div>
-                          <div class="col-md-3">
-                            <div class="new-list">
-                                <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
-                                <span> $ 1,200,00 </span>
-                                <p>Trending Now</p>
-                              </div>
-                          </div>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="source-wrap">
-                        <i class="fa fa-shopping-bag"></i>
-                        <h4>New Arrival</h4>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="new-list">
-                                  <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
-                                  <span> $ 1,200,00 </span>
-                                  <p>Trending Now</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="new-list">
-                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
-                                  <span> $ 1,200,00 </span>
-                                  <p>Trending Now</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="new-list">
-                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
-                                  <span> $ 1,200,00 </span>
-                                  <p>Trending Now</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="new-list">
-                                  <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
-                                  <span> $ 1,200,00 </span>
-                                  <p>Trending Now</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- new arrival end-->
 
+        <!-- product description area -->
+        <div class="product-desc mt-5">
+            <div class="container">
+                <div class="row">
 
-            <!--new arrival start-->
-            <div class="new-area">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-6">
-                           <div class="new-arrival-wrap">
-                            <div class="new-arrival-wrapp">
-                                <div class="heading">
-                                    <h4>Customized products</h4>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
-                                </div>                                
-                            </div>
-                            <div class="flex-img d-flex ">
-                                <div class="flex-img-1">
-                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                        <div class="desc-tab">
+                            <!-- description nav tab-->
+                            <ul class="nav nav-tabs" id="product-single-tab" role="tablist">
+                                <li class="nav-item">
+                                  <a class="nav-link active" id="desc-tab" data-toggle="tab" href="#desc" role="tab" aria-controls="desc" aria-selected="true">Description</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="info-tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Additional Info</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="shipping-tab" data-toggle="tab" href="#shipping" role="tab" aria-controls="shipping" aria-selected="false">Shipping & Returns</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" id="review-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Reviews</a>
+                                </li>
+                              </ul>
+                              <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active mt-5 pb-5" id="desc" role="tabpanel" aria-labelledby="desc-tab">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, in nihil odit eum saepe eligendi quibusdam autem minus libero consectetur dolorem minima. Iusto porro reprehenderit aperiam in fugiat odit id!</p>
+                                    <ul class="ml-3">
+                                        <li><a href=""><i class="fa fa-check"></i> Any Product types that You want - Simple, Configurable</a></li>
+                                        <li><a href=""><i class="fa fa-check"></i> Downloadable/Digital Products, Virtual Products</a></li>
+                                        <li><a href=""><i class="fa fa-check"></i> Inventory Management with Backordered items</a></li>
+                                    </ul>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eligendi itaque vero? Quae dignissimos accusamus esse, aut quas distinctio odit labore placeat consectetur nostrum. Consectetur explicabo excepturi libero, hic neque perspiciatis modi, ducimus aliquam recusandae placeat deserunt, nemo vitae voluptas.</p>
                                 </div>
-                                <div class="flex-img-2">
-                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                <div class="tab-pane fade mt-5 pb-5" id="info" role="tabpanel" aria-labelledby="info-tab">
+                                    <ul class="list-none">
+                                        <li class="d-flex align-item-center">
+                                            <label>Color:</label>
+                                            <p>Black, Brown, Coffee</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Style:</label>
+                                            <p>Vintage</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Material:</label>
+                                            <p>PU, Faux Leather</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Closure Type:</label>
+                                            <p>Hasp</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Bags Structure:</label>
+                                            <p>Cell phone Pocket, Zipper Pouch</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Size:</label>
+                                            <p>L</p>
+                                        </li>
+                                        <li class="d-flex align-item-center">
+                                            <label>Capacity:</label>
+                                            <p>15.6 Inch Laptop</p>
+                                        </li>
+                                    </ul>
                                 </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="source-wrap">
-                                <div class="new-arrival-wrapp">
-                                    <div class="heading">
-                                        <h4>Customized products</h4>
-                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
-                                    </div>                                
+                                <div class="tab-pane fade mt-5 pb-5" id="shipping" role="tabpanel" aria-labelledby="shipping-tab">
+                                    <h6 class="mb-2">Free Shipping</h6>
+                                    <p class="mb-0">We deliver to over 100 countries around the world. For full details of the delivery options we offer, please view our Delivery information
+                                        We hope you’ll love every purchase, but if you ever need to return an item you can do so within a month of receipt. For full details of how to make a return, please view our <a href="" class="text-primary">Delivery information</a></p>
+                                    
                                 </div>
-                                <div class="flex-img d-flex ">
-                                    <div class="flex-img-1">
-                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                <div class="tab-pane fade mt-5 pb-5" id="review" role="tabpanel" aria-labelledby="review-tab">
+                                    <div class="rating-container description-rating d-flex align-items-center">
+                                        <h4 class="mb-0 mr-2">Average Rating:</h4>
+                                        <div class="ratings-full">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
                                     </div>
-                                    <div class="flex-img-2">
-                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+
+                                    <!--comments-->
+                                    <div class="comments mb-6 pt-5">
+                                        <ul>
+                                            <li>
+                                                <div class="comment mb-5 d-flex">
+                                                    <figure class="comment-img">
+                                                        <a href=""><img src="assets/images/review/1.jpg" alt=""></a>
+                                                    </figure>
+                                                    <div class="comment-part">
+                                                        <div class="comment-rating rating-container mb-0">
+                                                            <div class="ratings-full">
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="comment-user">
+                                                            <h5>person's name</h5>
+                                                            <span class="comment-meta">December 19, 2020 at 2:19 pm</span>
+                                                        </div>
+                                                        <div class="comment-para">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas deleniti tempora? Saepe in incidunt delectus quasi architecto tenetur accusamus culpa, exercitationem dolorem numquam, perspiciatis beatae labore modi doloremque, possimus fugit cupiditate. Temporibus maxime consequatur exercitationem doloremque pariatur nulla aperiam.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="comment d-flex">
+                                                    <figure class="comment-img">
+                                                        <a href=""><img src="assets/images/review/1.jpg" alt=""></a>
+                                                    </figure>
+                                                    <div class="comment-part">
+                                                        <div class="comment-rating rating-container mb-0">
+                                                            <div class="ratings-full">
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                                <i class="fa fa-star"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="comment-user">
+                                                            <h5>person's name</h5>
+                                                            <span class="comment-meta">December 19, 2020 at 2:19 pm</span>
+                                                        </div>
+                                                        <div class="comment-para">
+                                                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui voluptas deleniti tempora? Saepe in incidunt delectus quasi architecto tenetur accusamus culpa, exercitationem dolorem numquam, perspiciatis beatae labore modi doloremque, possimus fugit cupiditate. Temporibus maxime consequatur exercitationem doloremque pariatur nulla aperiam.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
+                              </div>
+                        </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- comment form section-->
+        <div class="comment-form ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="comment-form-wrapper">
+                            <h5>Add a Review</h5>
+                            <p class="mb-0">Your email address will not be published. Required fields are marked *</p>
+                            <div class="rating-container mb-0">
+                                <div class="ratings-full">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
                             </div>
+                            <form action="" method="POST" class="mt-5">
+                                <textarea class="form-control mb-3" name="" id="" cols="30" rows="10" placeholder="Comment* "></textarea>
+                                <div class="username mb-3 d-flex align-items-center">
+                                    <input type="text " class="form-control " name="name" placeholder="Name* ">
+                                    <input type="email " class="form-control ml-3" name="email" placeholder="Email* ">
+                                    <input type="Phone " class="form-control ml-3" name="Phone" placeholder="Phone* ">
+                                </div>
+                                <a href="" class="submit-btn btn-outline-primary">SUBMIT <i class="fa fa-arrow-right"></i></a>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- new arrival end-->
-
-    <!--product area-->
-    <div class="product-area">
-        <div class="home-category">
-            <div class="home-category-info">
-
-               <div class="category-list">
-                   <div class="category-title d-flex align-items-center">
-                       <h2>Apparel</h2>
-                       <div class="label"></div>
-                   </div>
-                   <div class="category-info d-flex align-items-center">
-                       <a href="">
-                           <div class="banner-info">
-                               <h3>Shopping Guide for Trending Styles</h3>
-                               <img src="assets/images/banner-info/1.jpg" alt="">
-                               <span>Source Now</span>
-                           </div>
-                       </a>
-                       <div class="product-item d-flex">
-                           <div class="product-info">
-                            <a href="">
-                                <div class="item-info">
-                                    <h3>Premium OEM Factories</h3>
-                                    <span>Well-made clothing with trendy designs</span>
-                                    <i class="fa fa-certificate"></i>
-                                    <img src="assets/images/item-info/1.png" alt="">
-                                </div>
-                            </a>
-                           </div>
-                           <div class="product-info">
-                            <a href="">
-                                <div class="item-info">
-                                    <h3>Premium OEM Factories</h3>
-                                    <span>Well-made clothing with trendy designs</span>
-                                    <i class="fa fa-certificate"></i>
-                                    <img src="assets/images/item-info/1.png" alt="">
-                                </div>
-                            </a>
-                           </div>
-                           <div class="product-info">
-                            <a href="">
-                                <div class="item-info">
-                                    <h3>Premium OEM Factories</h3>
-                                    <span>Well-made clothing with trendy designs</span>
-                                    <i class="fa fa-certificate"></i>
-                                    <img src="assets/images/item-info/1.png" alt="">
-                                </div>
-                            </a>
-                           </div>
-                           <div class="product-info">
-                            <a href="">
-                                <div class="item-info">
-                                    <h3>Premium OEM Factories</h3>
-                                    <span>Well-made clothing with trendy designs</span>
-                                    <i class="fa fa-certificate"></i>
-                                    <img src="assets/images/item-info/1.png" alt="">
-                                </div>
-                            </a>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-
-            </div>
-            <div class="home-category-info"></div>
-            <div class="home-category-info"></div>
         </div>
-    </div>
+
 
     </section>
 

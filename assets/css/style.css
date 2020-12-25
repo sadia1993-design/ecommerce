@@ -460,3 +460,160 @@ h4.widget-title {padding: 0.6rem 0;margin-bottom: .9rem;font-family: inherit;fon
     margin-top: 17px;
     justify-content: space-between;
 }
+/* breadcrumb*/
+nav.breadcrumb-nav.bg {
+    background: #e9ecef;
+}
+/* products detail area*/
+ul#myTab li a img {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: inset 13px 14px 15px #ccc, -6px -7px 15px #eee;
+}
+div#myTabContent .tab-pane img {
+    width: 100%;
+}
+ul#myTab {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+ul#myTab li.nav-item {
+    flex-basis: 30%;
+}
+.product-price {
+    margin-top: 13px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    color: red;
+    font-weight: bold;
+}
+p.short-description {
+    color: #999;
+    text-align: justify;
+    font-size: 15px;
+}
+ul.color-block li.black {
+    width: 30px;
+    height: 30px;
+    background: black;
+    border-radius: 4px;
+}
+
+ul.color-block li.red {
+    width: 30px;
+    height: 30px;
+    background: red;
+    border-radius: 4px;
+}
+
+ul.color-block li.blue {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    border-radius: 4px;
+}
+ul.color-block {
+    margin-left: 12px;
+}
+ul.size-block li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+ul.social-share li a {
+    width: 30px;
+    height: 30px;
+    border: 1px solid blueviolet;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    color: blueviolet;
+}
+ul.size-block {
+    margin-left: 12px;
+}
+.action-btn {
+    margin-top: 20px;
+}
+
+ul.action li a {
+    padding: 12px 18px;
+    background: coral;
+    color: #fff;
+    border-radius: 4px;
+}
+
+ul.action li a i {
+    margin-right: 9px;
+}
+hr.long-divider {
+    margin-top: 36px;
+}
+
+/* product long description*/
+#product-single-tab .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-bottom: 3px solid blue;
+}
+div#desc ul li {
+    display: block;
+}
+.comment {
+    position: relative;
+    align-items: flex-start;
+}
+figure.comment-img {
+    max-width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 25px;
+}
+.comment-part {
+    position: relative;
+}
+
+.comment-part .comment-rating {
+    position: absolute;
+    right: 0;
+    top: 16px;
+    font-size: 14px;
+}
+.comment {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.rating-container.description-rating {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 30px;
+}
+/* comment form*/
+.comment-form {
+    padding-bottom: 100px;
+}
+.comment-form-wrapper form input {
+    box-shadow: inset 9px 10px 20px #ddd, inset -9px -10px 20px white;
+    border: 1px solid transparent;
+}
+a.submit-btn.btn-outline-primary {
+    background: lightgrey;
+    padding: 12px 20px;
+    color: #000;
+    box-shadow: inset 9px 10px 20px #ddd, inset -9px -10px 20px white;
+    margin-top: 13px;
+    display: inline-block;
+}
+.comment-form-wrapper form textarea {
+    box-shadow: inset 9px 10px 20px #ddd, inset -9px -10px 20px white;
+    border: 1px solid transparent;
+}
+.comment-form-wrapper {
+    background: #fff;
+    border-radius: 6px;
+    padding: 40px 45px;
+}
