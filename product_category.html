@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecommerce Home Page</title>
+
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="assets/css/all.css">
+
+    <!-- slick css -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- theme css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+</head>
+
+<body>
+    <!-- [if lte IE 9]>
+       <p class="browserupgrade">You are using an <strong>outdated</strong>browser.please <a href="https://browsehappy.com">upgrade your browser </a>to improve your experience & security.     </p>
+    -<![endif]-->
+    <header class="header-area">
+
+        <!-- Header middle -->
+        <div class="header-middle">
+            <div class="container-fluid">
+                 <div class="row">
+                    <div class="col-md-2">
+                       <div class="logo-area">
+                           <a href=""><img src="assets/images/logo.png" alt=""></a>
+                       </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="search-form">
+                            <form action="#" method="POST">
+                               <select name="" id="search-category">
+                                   <option value="Products">Products</option>
+                                   <option value="Products">Products</option>
+                                   <option value="Suppliers">Suppliers</option>
+                               </select>
+                               <input type="text" placeholder="What Are You Looking For..." name="search">
+                               <a href="" class="search-btn"><i class="fa fa-search"></i> Search</a>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="icon-wrap d-flex">
+                            <div class="icon-inner  d-flex ">
+                                <i class="far fa-user " style="margin-top: 12px;"></i>
+                                <div class="icont-content">
+                                    <span><a href="" class="login">Sign In</a></span>
+                                    <span><a href="" class="login">Join Free</a></span>
+                                </div>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-comment-dots d-block"></i>
+                                <a href="" class="message">message</a>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-comment-dollar d-block"></i>
+                                <a href="" class="order">Orders</a>
+                            </div>
+                            <div class="icon-inner text-center" style="margin-top: 6px;">
+                                <i class="fas fa-cart-plus d-block"></i>
+                                <a href="" class="cart">Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+
+
+        <!--header bottom-->
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg">
+                
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <i class="fa fa-bars"></i>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Ready to Ship</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle service-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Services
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <div class="service-dropdown-menu">
+                                <div class="left-side">
+                                    <ul>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Trade Assurance</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Pay Later</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Payment Terms: Net-60</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Production Monitoring & Inspection Services</a></li>
+                                        <li><a href=""><i class="fas fa-dollar-sign"></i> Logistic Service</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-side">
+                                    <p>Sourcing Solutions</p>
+                                    <ul>
+                                        <li><a href="">Submit RFQ</a></li>
+                                        <li><a href="">Suppliers by Regions</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                      </ul>
+                      <ul class="ml-auto">
+                        <li><a href="">Get the App |</a></li>
+                        <li><a href="">English- USD</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="wrapper">
+        <!-- banner section -->
+        <div class="slider-cat-area">
+            <div class="container-fluid">
+              <div class="slider-inner">          
+                <div class="row">
+                    <div class="col-md-3">
+                        <nav class="cat-menu">
+                            <h4>My Market</h4>
+                            <ul>
+                                <li><a href=""><i class="fa fa-facebook"></i> Apparel</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Beauty</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Packaging</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> health</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> medical</a></li>
+                                <li><a href=""><i class="fa fa-facebook"></i> Consumer electronics</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="slider-area">
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-2.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-4.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="single-banner">
+                                <div class="banner-img">
+                                    <img src="assets/images/banner/banner-6.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                       <div class="promotional-img">
+                           <div class="image-one"><a href=""><img src="" alt=""></a></div>
+                           <div class="image-two"><a href=""><img src="" alt=""></a></div>
+                       </div>
+                    </div>
+                </div>
+              </div>  
+            </div>
+        </div>
+
+
+        <!--new arrival start-->
+    <div class="new-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="new-arrival-wrap">
+                      <i class="fa fa-shopping-bag"></i>
+                      <h4>New Arrival</h4>
+                      <div class="row">
+                          <div class="col-md-3">
+                              <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                              <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                              <span> $ 1,200,00 </span>
+                              <p>Trending Now</p>
+                            </div>
+                         </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                          <div class="col-md-3">
+                            <div class="new-list">
+                                <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
+                                <span> $ 1,200,00 </span>
+                                <p>Trending Now</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="source-wrap">
+                        <i class="fa fa-shopping-bag"></i>
+                        <h4>New Arrival</h4>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-1.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-3.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="new-list">
+                                  <a href=""><img src="assets/images/new-arrival/image-4.png" alt=""></a>
+                                  <span> $ 1,200,00 </span>
+                                  <p>Trending Now</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- new arrival end-->
+
+
+            <!--new arrival start-->
+            <div class="new-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-6">
+                           <div class="new-arrival-wrap">
+                            <div class="new-arrival-wrapp">
+                                <div class="heading">
+                                    <h4>Customized products</h4>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
+                                </div>                                
+                            </div>
+                            <div class="flex-img d-flex ">
+                                <div class="flex-img-1">
+                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                </div>
+                                <div class="flex-img-2">
+                                    <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="source-wrap">
+                                <div class="new-arrival-wrapp">
+                                    <div class="heading">
+                                        <h4>Customized products</h4>
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus odit omnis praesentium perspiciatis eligendi pariatur.</p>
+                                    </div>                                
+                                </div>
+                                <div class="flex-img d-flex ">
+                                    <div class="flex-img-1">
+                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                    </div>
+                                    <div class="flex-img-2">
+                                        <a href=""><img src="assets/images/background-img/img-1.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- new arrival end-->
+
+    <!--product area-->
+    <div class="product-area">
+        <div class="home-category">
+            <div class="home-category-info">
+
+               <div class="category-list">
+                   <div class="category-title d-flex align-items-center">
+                       <h2>Apparel</h2>
+                       <div class="label"></div>
+                   </div>
+                   <div class="category-info d-flex align-items-center">
+                       <a href="">
+                           <div class="banner-info">
+                               <h3>Shopping Guide for Trending Styles</h3>
+                               <img src="assets/images/banner-info/1.jpg" alt="">
+                               <span>Source Now</span>
+                           </div>
+                       </a>
+                       <div class="product-item d-flex">
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                           <div class="product-info">
+                            <a href="">
+                                <div class="item-info">
+                                    <h3>Premium OEM Factories</h3>
+                                    <span>Well-made clothing with trendy designs</span>
+                                    <i class="fa fa-certificate"></i>
+                                    <img src="assets/images/item-info/1.png" alt="">
+                                </div>
+                            </a>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+
+            </div>
+            <div class="home-category-info">
+                <div class="category-list">
+                    <div class="category-title d-flex align-items-center">
+                        <h2>Apparel</h2>
+                        <div class="label"></div>
+                    </div>
+                    <div class="category-info d-flex align-items-center">
+                        <a href="">
+                            <div class="banner-info">
+                                <h3>Shopping Guide for Trending Styles</h3>
+                                <img src="assets/images/banner-info/1.jpg" alt="">
+                                <span>Source Now</span>
+                            </div>
+                        </a>
+                        <div class="product-item d-flex">
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="home-category-info">
+                <div class="category-list">
+                    <div class="category-title d-flex align-items-center">
+                        <h2>Apparel</h2>
+                        <div class="label"></div>
+                    </div>
+                    <div class="category-info d-flex align-items-center">
+                        <a href="">
+                            <div class="banner-info">
+                                <h3>Shopping Guide for Trending Styles</h3>
+                                <img src="assets/images/banner-info/1.jpg" alt="">
+                                <span>Source Now</span>
+                            </div>
+                        </a>
+                        <div class="product-item d-flex">
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info">
+                                     <h3>Premium OEM Factories</h3>
+                                     <span>Well-made clothing with trendy designs</span>
+                                     <i class="fa fa-certificate"></i>
+                                     <img src="assets/images/item-info/1.png" alt="">
+                                 </div>
+                             </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- weekly deal area-->
+    <div class="week-deal-area common-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- start col-6-->
+                <div class="col-md-6">
+                    <div class="category-title d-flex align-items-center">
+                        <h4>WEEKLY DEALS</h4>
+                        <div class="label"></div>
+                    </div>
+                    
+                    <!-- product section start-->
+                    <div class="category-info d-flex align-items-center">
+                        <a href="">
+                            <div class="banner-info img-height">
+                                <h3>From 10% OFF</h3>
+                                <p>Deals end in:</p>
+                                <img src="assets/images/deal/1.png" alt="">
+                                <div class="date-time">
+                                    <span>06</span>
+                                    <span>00</span>&nbsp;:&nbsp;
+                                    <span>14</span>&nbsp;:&nbsp;
+                                    <span>02</span>
+                                </div>
+                                <span class="deal-button">View More</span>
+                            </div>
+                        </a>
+                        <div class="product-item d-flex">
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info deal">
+                                   <img src="assets/images/deal/2.png" alt="">
+                                   <p>$ 120.00</p>
+                                   <div class="strike">
+                                     <span class="strike">$ 150.00</span>
+                                     <span class="percent">-30%</span>
+                                   </div>                                   
+                                 </div>
+                             </a>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="">
+                                    <div class="item-info deal">
+                                      <img src="assets/images/deal/2.png" alt="">
+                                      <p>$ 120.00</p>
+                                      <div class="strike">
+                                        <span class="strike">$ 150.00</span>
+                                        <span class="percent">-30%</span>
+                                      </div>                                   
+                                    </div>
+                                </a>
+                               </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- start col-6-->
+                <div class="col-md-6">
+                    <div class="category-title d-flex align-items-center">
+                        <h4>SMALL COMMODITIES MARKETPLACE</h4>
+                        <div class="label"></div>
+                    </div>
+
+                    <!-- product section start-->
+                    <div class="category-info d-flex align-items-center">
+                        <a href="">
+                            <div class="banner-info img-height">
+                                <h3>From 10% OFF</h3>
+                                <p>Deals end in:</p>
+                                <img src="assets/images/deal/1.png" alt="">
+                                <div class="date-time">
+                                    <span>06</span>
+                                    <span>00</span>&nbsp;:&nbsp;
+                                    <span>14</span>&nbsp;:&nbsp;
+                                    <span>02</span>
+                                </div>
+                                <span class="deal-button">View More</span>
+                            </div>
+                        </a>
+                        <div class="product-item d-flex">
+                            <div class="product-info">
+                             <a href="">
+                                 <div class="item-info deal">
+                                   <img src="assets/images/deal/2.png" alt="">
+                                   <p>$ 120.00</p>
+                                   <div class="strike">
+                                     <span class="strike">$ 150.00</span>
+                                     <span class="percent">-30%</span>
+                                   </div>                                   
+                                 </div>
+                             </a>
+                            </div>
+
+                            <div class="product-info">
+                                <a href="">
+                                    <div class="item-info deal">
+                                      <img src="assets/images/deal/2.png" alt="">
+                                      <p>$ 120.00</p>
+                                      <div class="strike">
+                                        <span class="strike">$ 150.00</span>
+                                        <span class="percent">-30%</span>
+                                      </div>                                   
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- request quotation-->
+    <div class="quotation-area common-padding">
+      <div class="container-fluid">
+          <div class="row">
+             
+          </div>
+      </div>
+    </div>
+
+
+
+    </section>
+
+
+
+
+
+  
+
+
+        <!-- footer area-->
+        <footer class="footer-area">
+            <!-- footer top start-->
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a href="" class="logo-footer">
+                                <img src="assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-lg-9">
+                           <div class="widget widget-newsletter form-wrapper d-flex form-wrapper-inline">
+                              <div class="newsletter-info ">
+                                <h4 class="widget-title">Subscribe to our Newsletter</h4>
+                                <p>Get all the latest information on Events, Sales and Offers.</p>
+                              </div>
+                              <form action="" class="input-wrapper input-wrapper-inline d-flex">
+                                <input type="email" class="form-control" name="newsletter_email" id="newsletter_email" placeholder="Email address here..." required="">
+                                <button class="btn btn-grey btn-md ml-2" type="submit">subscribe<i class="fa fa-arrow-right"></i></button>
+                              </form>
+                           </div>
+                        </div>
+                    </div>
+                    <hr style="background-color: #ccc;">
+                </div>
+            </div>
+            <!-- end of footer top-->
+
+
+            <!-- start of footer middle-->
+            <div class="footer-middle">
+                <div class="container">
+                    <div class="row">
+                        
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget">
+                                <h4 class="widget-title">Location</h4>
+                                <ul class="widget-body">
+                                    <li>                                         
+                                        <label>Phone:</label>
+                                        <a href="#">Toll Free (123) 456-7890</a>
+                                    </li>
+                                    <li>
+                                        <label>Email:</label>
+                                        <a href="#">mail@gmail.com</a>
+                                    </li>
+                                    <li>
+                                        <label>Address:</label>
+                                        <a href="#">Hatirpul</a>
+                                    </li>
+                                    <li>
+                                        <label>WORKING DAYS/HOURS:</label>
+                                    </li>
+                                    <li>
+                                        <a href="#">Mon - Sun / 9:00 AM - 8:00 PM</a>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                <h4 class="widget-title">My Account</h4>
+                                <ul class="widget-body">
+                                    <li>                                         
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Order History</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Custom Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms & Condition</a>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget ml-lg-4">
+                                <h4 class="widget-title">Quick Links</h4>
+                                <ul class="widget-body">
+                                    <li>                                         
+                                        <a href="#">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Order History</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Returns</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Custom Service</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Terms & Condition</a>
+                                    </li>
+                                </ul>                                
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="widget widget-instagram">
+                                <h4 class="widget-title">Instagram</h4>
+                                <figure class="widget-body row">
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/01.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/02.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/03.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/04.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/05.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/06.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/07.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="assets/images/instagram/08.jpg" alt="instagram 1" width="64" height="64">
+                                    </div>
+                                </figure>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="bordr-bottom"></div>
+                    <div class="footer-content d-flex">
+                        <div class="footer-left">
+                            <p>
+                               Navieasoft eCommerce © 2020. All Rights Reserved                            
+                            </p>
+                        </div>
+                        <div class="footer-right">
+                            <ul>
+                                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- jquery js -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- jquery  migrate js -->
+    <script src="assets/js/jquery-migrate.js"></script>
+
+    <!-- slick js -->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!-- bootstrap popper js -->
+    <script src="assets/js/popper.js"></script>
+    <!-- theme bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- main js-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
