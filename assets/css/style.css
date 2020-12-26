@@ -414,10 +414,12 @@ hr {
 
 /* ========footer middle=========*/
 .footer-middle {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 h4.widget-title {padding: 0.6rem 0;margin-bottom: .9rem;font-family: inherit;font-size: 1.4rem;font-weight: 700;color: #ccc;}
-
+.footer-top .container {
+    border-bottom: 1px solid #777;
+}
 .footer-middle label {
     font-weight: 600;
     text-transform: uppercase;
@@ -672,6 +674,9 @@ a.submit-btn.btn-outline-primary {
     .widget-newsletter {
         padding: 28px 21px;
         margin-bottom: 10px;
+    }
+    .newsletter-info h4.widget-title {
+        padding: 0;
     }
     /*=========price slider===========*/
     .slider-range{
