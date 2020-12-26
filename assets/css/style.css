@@ -617,3 +617,72 @@ a.submit-btn.btn-outline-primary {
     border-radius: 6px;
     padding: 40px 45px;
 }
+
+
+/* ============================category page ================================*/
+    .banner-container {
+        background: url(../images/banner/banner-4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 100vh;
+    }
+    .banner-container a {
+        background: black;
+        color: #fff;
+        padding: 12px 26px;
+        margin-top: 5px;
+        display: inline-block;
+        transition: all 1s ease-in;
+    }
+    
+    .banner-container a:hover {
+        background: orangered;
+    }
+
+    /* sidebar*/
+    h3.widget-title a {
+        position: relative;
+        display: block;
+        color: #222529;
+        font-size: 23px;
+    }
+    
+    h3.widget-title a:after, h3.widget-title a:before {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 2px;
+        background: #222529;
+        right: 0;
+        top: 50%;
+        margin-top: -1px;
+        transition: all .3s ease-in;
+        display: inline-block;
+    }
+    .widget-body .category-list li {
+        display: block;
+    }
+    
+    .widget-body .category-list li a {
+        color: #999;
+        font-size: 14px;
+    }
+    
+    .widget {
+        border: 1px solid #ccc;
+        padding: 28px 21px;
+        margin-bottom: 10px;
+    }
+    /*=========price slider===========*/
+    .slider-range{
+        -webkit-appearance: none;
+        appearance: none;
+        height: 25px;
+        outline: none;
+        opacity: .7;
+        transition: all 1s ease-in-out;
+    }
+    .widget-body .service-type input{
+        display: inline-block;
+    }
