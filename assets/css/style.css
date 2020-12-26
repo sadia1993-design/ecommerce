@@ -669,8 +669,7 @@ a.submit-btn.btn-outline-primary {
         font-size: 14px;
     }
     
-    .widget {
-        border: 1px solid #ccc;
+    .widget-newsletter {
         padding: 28px 21px;
         margin-bottom: 10px;
     }
