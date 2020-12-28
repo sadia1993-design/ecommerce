@@ -28,4 +28,29 @@
     .logo-area {
         text-align: center;
     }
+    .features-box{
+       padding-right: 0;
+    }
+    .feature-item{
+        flex-direction: column;
+        border: 0;
+        margin-bottom: 30px;
+    }
+    .new-arrival-content{
+        flex-direction: column;
+    }
+    .new-arrival-column .new-list a img {
+        width: 100%;
+    }
+    .new-arrival-column {
+        margin-bottom: 20px;
+    }
+    .new-arrival-inner .heading {
+        order: 2;
+    }
+    .new-arrival-inner .heading {
+        order: 2;
+        width: 100%;
+        margin-top: 31px;
+    }
 }
