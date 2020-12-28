@@ -30,11 +30,12 @@
     }
     .features-box{
        padding-right: 0;
+       border: 0;
+        margin-bottom: 30px;
     }
     .feature-item{
         flex-direction: column;
-        border: 0;
-        margin-bottom: 30px;
+        
     }
     .new-arrival-content{
         flex-direction: column;
@@ -52,5 +53,8 @@
         order: 2;
         width: 100%;
         margin-top: 31px;
+    }
+    .new-arrival-inner {
+        flex-direction: column;
     }
 }
