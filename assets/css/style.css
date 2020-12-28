@@ -491,7 +491,42 @@ a.quote-btn {
     overflow: hidden;
     max-height: 48px;
 }
+.quote-form {
+    border: 5px solid #ccc;
+    padding-top: 65px;
+    padding-bottom: 40px;
+    background: #fff;
+    padding-left: 23px;
+}
 
+.quote-form form h4 {
+    font-size: 29px;
+    margin-bottom: 35px;
+}
+.form-item a.form-btn {
+    display: inline-block;
+    background: orangered;
+    color: #fff;
+    margin-top: 30px;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 50px;
+    transition: all 1s ease-in;
+}
+.form-item span input.form-name {
+    width: 70%;
+    margin-bottom: 16px;
+    padding: 5px 15px;
+}
+.form-item span input.form-number {
+    padding: 5px 0px 5px 16px;
+    width: 35%;
+}
+
+.form-item span select.form-opt-select {
+    padding: 7px 0px 7px 10px;
+    width: 34%;
+}
 
 
 
