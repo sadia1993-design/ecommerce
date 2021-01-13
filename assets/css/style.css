@@ -1,9 +1,7 @@
 *{
     margin: 0; padding: 0; outline: 0; box-sizing: border-box;
 }
-header, footer{
-    display: none;
-}
+
 .common-padding{
     padding: 30px 36px;
 }
@@ -65,8 +63,17 @@ p:last-child {
 
 
 /* header middle */
+.search-form-wrap .icon-inner i {
+    margin-right: 13px;
+    font-size: 25px;
+}
 .wrapper {
-    background: #eee;
+    background: #fff;
+    overflow: hidden;
+}
+.logo-area a img {
+    width: 80px;
+    height: 65px;
 }
 nav.cat-menu {
     border: 2px solid #eee;
@@ -78,27 +85,34 @@ nav.cat-menu ul li a i {
 }
 .search-form form a.search-btn {
     display: inline-block;
-    background: orangered;
+    background: #ddd;
     padding: 8px 16px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    color: #fff;
+    color: #000;
+}
+.search-form {
+    flex-basis: 80%;
+}
+.icon-wrap .icon-inner:last-child {
+    margin-right: 0;
+}
+.search-form-wrap .icon-inner {
+    margin-left: 12px;
 }
 .search-form form input {
     height: 39px;
-    border: 2px solid orangered;
+    border: 2px solid #ddd;
     padding: 0 10px;
     flex: 1;
 }
 .header-middle {
     padding: 20px 0;
 }
-.search-form {
-    margin-top: 5px;
-}
+
 select#search-category {
     padding: 6px 3px 6px 7px;
-    border: 2px solid orangered;
+    border: 2px solid #ddd;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border-right: 0;
@@ -528,8 +542,67 @@ a.quote-btn {
     width: 34%;
 }
 
+/* category*/
+.left-col a img {
+    width: 100%;
+    position: relative;
+}
+
+.left-col .img-content {
+    position: absolute;
+    top: 27px;
+    left: 38px;
+}
+.left-col .img-content h4, .left-col .img-content p {
+    color: #fff;
+}
+
+.left-col .img-content button {
+    background: #fff;
+    border: 0;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 50px;
+}
+
+.right-col-grid h5 {
+    font-size: 13px;
+    margin-bottom: 5px;
+    margin-top: 19px;
+}
+
+.right-col-grid {
+    padding: 42px 12px;
+    border-right: 1px solid #ccc;
+    background: #fff;
+}
+
+.right-col-grid span {
+    display: block;
+}
+.weekly-dear {
+    background: #eee;
+}
 
 
+
+.left-col .img-content a h4 {
+    margin-bottom: 7px;
+}
+.headline h3 {
+    margin-bottom: 0;
+}
+
+.img-wrapper a img {
+    border-radius: 20px;
+}
+
+.img-wrapper a .title h4 {
+    font-size: 20px;
+    color: #000;
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 
 
