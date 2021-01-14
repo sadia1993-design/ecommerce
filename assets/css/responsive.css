@@ -101,6 +101,82 @@
     .new-arrival-column:last-child {
         FONT-VARIANT: JIS04;
     }
+    .new-arrival-inner {
+        flex-direction: column;
+    }
+    
+    .new-arrival-inner .heading {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .category-info {
+        flex-direction: column;
+    }
+    
+    .product-item {
+        flex-direction: column;
+    }.category-info.basis .product-item {
+        padding: 25px 60px !important;
+    }
+    .category-title.top-20 {
+        margin-top: 30px;
+    }
+    .category-title.top-20 {
+        margin-top: 30px;
+    }
+    
+    .quotation-area.common-padding {
+        padding: 0px 16px 20px 16px;
+    }
+    
+    .quotation-area.common-padding .category-title h4 {
+        font-size: 18px;
+    }
+    
+    .quotation-area.common-padding .category-title {
+        flex-direction: column;
+    }
+    
+    .quotation-area.common-padding .category-title .label {
+        border: 3px solid rgba(0,0,0,.4);
+        width: 45%;
+        margin-bottom: 21px;
+    }
+    .week-deal-area.common-padding .category-title {
+        flex-direction: column;
+    }
+    .week-deal-area.common-padding .category-title .label {
+        border: 3px solid rgba(0,0,0,.4);
+        width: 45%;
+        margin-bottom: 21px;
+    }
+    .quote-number {
+        flex-direction: column;
+    }
+    
+    .quote-number .number-item {
+        margin-bottom: 9px;
+    }
+    .quote-img {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .form-item span input.form-name {
+        width: 91%;
+        padding: 5px 7px;
+    }
+    .form-item span input.form-number {
+        padding: 5px 0px 5px 3px;
+        width: 46%;
+    }
+    .form-item span select.form-opt-select {
+        padding: 7px 0px 7px 4px;
+        width: 43%;
+    }
+    .pr-for-u {
+        margin-bottom: 15px;
+    }
     .search-form-wrap .icon-inner {
         display: none !important;
     }
@@ -108,8 +184,12 @@
     .header-middle .icon-wrap {
         margin-top: 27px;
     }
-    
-   
+    .footer-content {
+        flex-direction: column;
+    }
+    .pr-for-u .img-thumb a img {
+        width: 100%;
+    }
     a.search-btn i {
         display: none;
     }
