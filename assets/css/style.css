@@ -699,9 +699,11 @@ h4.widget-title {
 }
 .product-cont h4 {
     font-size: 12px;
+    margin-bottom: 5px;
+}
+.product-cont {
     margin-left: 26px;
 }
-
 .product-feature {
     background: #fff;
     padding-bottom: 47px;
